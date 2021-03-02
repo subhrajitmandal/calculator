@@ -33,7 +33,7 @@ h1 {
 }
 
 #resultTxt {
-    position: absolute;
+/*     position: absolute; */
     bottom: 0;
     text-align: right;
     font-size: 100px;
