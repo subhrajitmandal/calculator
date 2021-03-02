@@ -20,7 +20,7 @@ h1 {
     font-size: 30px;
     display: block;
     width: 100%;
-    min-height: 80px;
+    min-height: 100px;
     word-break: break-all;
 }
 
@@ -29,6 +29,17 @@ h1 {
     height: calc(100vh - 370px);
     overflow: auto;
     background-color: #f5f5f5;
+    position: relative;
+}
+
+#resultTxt {
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    font-size: 100px;
+    /* right: 0; */
+    padding: 10px 0;
+    margin: 0;
 }
 
 .tablesection{
@@ -60,11 +71,6 @@ h1 {
     color: #111;
     background-color: #fff;
     border-color: #fff;
-}
-
-#resultTxt {
-    text-align: right;
-    font-size: 100px;
 }
 
 table {
